@@ -27,9 +27,8 @@ class Register:Fragment() {
             var tx = fm.beginTransaction()
             tx.replace(R.id.frag, Login())
             tx.commit()
-
-
-            return v
         }
+
+        return v
     }
 }
